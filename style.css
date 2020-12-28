@@ -8,6 +8,7 @@ h2{
     display:flex;
     justify-content:space-between;
     background-color:#f197c4;
+    flex-wrap: wrap;
 }
 .grid{
     display:flex;
@@ -17,12 +18,15 @@ h2{
 }
 body{
     background-color:#f197c4;
+    flex-wrap: wrap;
 }
 .footer{
     display: flex;
     justify-content: flex-start;
     background-color: #5e71e7;
+    flex-wrap: wrap;
 }
 p,h2{
     text-align: center;
+    flex-wrap: wrap;
 }
